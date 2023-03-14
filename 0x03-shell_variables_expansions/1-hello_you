@@ -1,2 +1,2 @@
 #!/bin/bash
-username="id -un" | echo "hello $(username)"
+username="whoami"|echo "hello $(whoami)"
