@@ -1,2 +1,2 @@
 #!/bin/bash
-HEXA=$(echo "obese16;$DECIMAL") | bc | $HEXA 
+printf "%\n" $DECIMAL
